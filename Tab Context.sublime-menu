@@ -1,4 +1,4 @@
 [
-	{ "command": "close_tab", "args": { "index": -1 }, "caption": "Close Tab" },
-	{ "command": "open_command_palette_in_tab", "args": { "index": -1, "command": "set_alias" }, "caption": "Set Alias" },
+	{ "command": "close_tab", "args": { "index": -1 }, "caption": "关闭标签页" },
+	{ "command": "open_command_palette_in_tab", "args": { "index": -1, "command": "set_alias" }, "caption": "设置别名" },
 ]

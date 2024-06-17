@@ -408,7 +408,7 @@
 			{ "command": "open_url", "args": {"url": "https://www.sublimemerge.com/docs/"}, "caption": "官方文档" },
 			{ "command": "open_url", "args": {"url": "https://github.com/sublimehq/sublime_merge/issues/new/choose"}, "caption": "报告 Bug" },
 			{ "command": "open_url", "args": {"url": "https://twitter.com/sublimehq/"}, "caption": "官方 Twitter" },
-			{ "command": "open_url", "args": {"url": "https://github.com/sublime-china/sublime-merge-chinese"}, "caption": "汉化 by Sublime-China" },
+			{ "command": "open_url", "args": {"url": "https://github.com/sublime-china/sublime-merge-chinese"}, "caption": "汉化 by maboloshi" },
 			{ "caption": "-" },
 			{ "command": "open_url", "args": {"url": "https://www.sublimehq.com/store/merge"}, "caption": "购买许可证" },
 			{ "command": "show_license_window", "caption": "输入许可证" },
