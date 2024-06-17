@@ -44,7 +44,6 @@
 		"command": "search",
 		"args": { "query": "branch:$branch " },
 	},
-
 	{ "caption": "-" },
 	{
 		"caption": "Git Flow: 完成",

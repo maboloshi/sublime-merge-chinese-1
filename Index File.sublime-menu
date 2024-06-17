@@ -1,13 +1,14 @@
 [
 	{
 		"caption": "丢弃文件",
-		"command": "unstage_selected_files",
+		"command": "unstage_file",
+		"args": { "path": "$path" },
 	},
 	{
-        "caption": "创建补丁",
-        "command": "create_patch",
-        "args": { "path": "$path", "diff_against_index": true },
-    },
+		"caption": "创建补丁",
+		"command": "create_patch",
+		"args": { "path": "$path", "diff_against_index": true },
+	},
 	{
 		"caption": "编辑暂存内容…",
 		"command": "edit_staged_file",

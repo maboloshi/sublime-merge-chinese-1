@@ -1,11 +1,13 @@
 [
 	{
 		"caption": "暂存",
-		"command": "stage_selected_files",
+		"command": "stage_file",
+		"args": { "path": "$path" },
 	},
 	{
 		"caption": "删除",
-		"command": "delete_selected_files",
+		"command": "delete_file",
+		"args": { "path": "$path" },
 	},
 	{
 		"caption": "Git LFS 文件跟踪",

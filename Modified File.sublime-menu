@@ -1,11 +1,13 @@
 [
 	{
 		"caption": "暂存文件",
-		"command": "stage_selected_files",
+		"command": "stage_file",
+		"args": { "path": "$path" },
 	},
 	{
 		"caption": "丢弃文件",
-		"command": "discard_selected_files",
+		"command": "discard_file",
+		"args": { "path": "$path" },
 	},
 	{
 		"caption": "Git LFS 文件跟踪",
@@ -13,8 +15,8 @@
 		"args": { "path": "$path" },
 	},
 	{
-        "caption": "创建补丁",
-        "command": "create_patch",
-        "args": { "path": "$path" },
-    },
+		"caption": "创建补丁",
+		"command": "create_patch",
+		"args": { "path": "$path" },
+	}
 ]

@@ -5,7 +5,8 @@
 	},
 	{
 		"caption": "暂存文件",
-		"command": "stage_selected_files",
+		"command": "stage_file",
+		"args": { "path": "$path" },
 	},
 	{
 		"caption": "Git LFS 文件跟踪",
